@@ -1,11 +1,15 @@
 
 
+.polygon-container{
+  position:absolute;
+  bottom:0;
+  margin: auto;
+}
+
 .polygon-wrap{
   width:792px;
   height:612px;
   position:relative;
-  margin: auto;
-  bottom:0;
 
 }
 
@@ -13,7 +17,6 @@
    .polygon-wrap{
   width:600px;
   height:464px;
-  bottom: -146px;
   }
 }
 
@@ -21,7 +24,6 @@
    .polygon-wrap{
   width:450px;
   height:348px;
-    bottom: -246px;
 
   }
 }
