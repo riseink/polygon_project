@@ -1,11 +1,4 @@
 
-body{
-   background:url(http://media.giphy.com/media/xeWd5LK7D8Rws/giphy.gif);
-
-    //background:url(http://media.giphy.com/media/pDcJDXXIBukve/giphy.gif);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
 .polygon-wrap{
   width:792px;
@@ -14,6 +7,27 @@ body{
   margin: auto;
   bottom:0;
 
+}
+
+@media screen and (max-width: 792px) {
+   .polygon-wrap{
+  width:600px;
+  height:464px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .polygon-wrap{
+  width:450px;
+  height:348px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+   .polygon-wrap{
+  width:350px;
+  height:270px;
+  }
 }
 
 .polygon-wrap-trace{
